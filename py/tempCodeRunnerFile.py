@@ -1,0 +1,1 @@
+Pelayan_arfy.ambil_pesanan("nasi Goreng")
