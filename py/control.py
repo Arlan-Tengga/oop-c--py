@@ -1,5 +1,4 @@
-import random
-import time
+
 
 class Pelayan:
     def __init__(self,nama:str,umur:int,gaji:float) -> None:
