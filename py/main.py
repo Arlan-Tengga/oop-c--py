@@ -3,6 +3,7 @@ from control_2 import *
 from tugas_gpt import *
 
 
+# test
 if __name__ == "__main__":
     Perpustakaan_uny = Perpustakaan("mary L boas","mary L boas",2022)
 
