@@ -3,25 +3,24 @@ from control_2 import *
 from tugas_gpt import *
 
 
-
 if __name__ == "__main__":
-    data_planet_1 = planet("bola",3654,500)
-    data_planet_2 = planet("bola",3654,50)
-    x  = data_planet_1.gravitasi_permukaan()
-    y  = data_planet_2.gravitasi_permukaan()
+    Perpustakaan_uny = Perpustakaan("mary L boas","mary L boas",2022)
+
+    Perpustakaan_uny.info_perpustakaa()
     
 
 
 
 
-
-
-
-
-
-
-
-
+# *
+# case 2 Perustakaan
+# class attribute: kategori_umum = "Literasi"
+#                  (kategori besar, sama untuk semua buku).
+# Instance attribute: judul, penulis, tahun
+# Method: info_buku() → cetak detail buku.
+# 
+# Latihan: Buat 2 buku berbeda dan tampilkan informasinya
+# *#
 
 
 

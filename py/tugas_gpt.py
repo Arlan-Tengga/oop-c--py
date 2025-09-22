@@ -9,6 +9,7 @@ from typing import Final
 # 
 # * #
 
+
 # *
 # case 2 Perustakaan
 # class attribute: kategori_umum = "Literasi"
@@ -18,6 +19,8 @@ from typing import Final
 # 
 # Latihan: Buat 2 buku berbeda dan tampilkan informasinya
 # *#
+
+
 class planet:
     constant_gravitation:Final[int] = 6.67 * 10**-11
     mass_earth:Final[int] = 5.67 * 10**24
@@ -44,4 +47,23 @@ class planet:
     
 
 class Perpustakaan:
-    pass
+    kategori_umum:Final[str] = "Perpustakaan RI"
+    daftar_buku_perpus:Final[list[str]] = [
+        "Matematical Pyhsics","Haliday Physics","Calculus","Mary L Boas"
+    ]
+
+    # Instance attribute: judul, penulis, tahun
+
+    # mendefinisikan struktrur data
+    def __init__(self,judul:str,penulis:str,tahun:int) -> None:
+        self.judul: str = judul
+        self.penulis: str = penulis
+        self.tahun: int = tahun
+        self.daftar_buku: list[int] = Perpustakaan.daftar_buku_perpus.copy()
+
+    def info_perpustakaa(self) -> None:
+        print(f"info perpustakaan")
+        print(f"Perpustakaan : {Perpustakaan.kategori_umum}")
+        print(f"daftar buku : {self.daftar_buku}")
+        
+
