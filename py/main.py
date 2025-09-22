@@ -4,6 +4,7 @@ from tugas_gpt import *
 
 
 # test
+# test_1
 if __name__ == "__main__":
     Perpustakaan_uny = Perpustakaan("mary L boas","mary L boas",2022)
 
