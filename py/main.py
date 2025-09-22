@@ -1,17 +1,31 @@
 from control import *
 from control_2 import *
 from tugas_gpt import *
+from contro4_ import *
+
+# membuat branch
+# git branch <nama_brach>
+
+# untuk pindah ke branch git checkout <nama_brach>
+# git merge <nama_brach>
+
+
+# menghapus branch git branch -d<nama_brach>
+
+# untuk melihat branch apa aja yang di brach
+# git branch --merged
 
 
 # test
 # test_1
 if __name__ == "__main__":
-    Perpustakaan_uny = Perpustakaan("mary L boas","mary L boas",2022)
+    # Perpustakaan_uny = Perpustakaan("mary L boas","mary L boas",2022)
 
-    Perpustakaan_uny.info_perpustakaa()
+    # Perpustakaan_uny.info_perpustakaa()
+
+    angka = coba_git(5)
+    angka.kalikan_angka()
     
-
-
 
 
 # *
