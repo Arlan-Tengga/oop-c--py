@@ -3,6 +3,7 @@ from control_2 import *
 from tugas_gpt import *
 from contro4_ import *
 from control5 import *
+from control6 import *
 
 # membuat branch
 # git branch <nama_brach>
@@ -26,13 +27,26 @@ if __name__ == "__main__":
     # angka = coba_git(5)
     # angka.kalikan_angka()
 
-    karyawan_pertama = Karyawan.dari_gaji_tahunan("arfy","backend",120_000,2020)
+    # karyawan_pertama = Karyawan.dari_gaji_tahunan("arfy","backend",120_000,2020)
     
-    karyawan_pertama.ingpo_karyawan()
+    # karyawan_pertama.ingpo_karyawan()
 
-    rata_rata_gaji = Karyawan.hitung_rata_rata_gaji()
-    print(f"rata rata gaji dari karyawan {Karyawan.perusahaan} adalah : {rata_rata_gaji:0f} / bulan")
+    # rata_rata_gaji = Karyawan.hitung_rata_rata_gaji()
+    # print(f"rata rata gaji dari karyawan {Karyawan.perusahaan} adalah : {rata_rata_gaji:0f} / bulan")
     
+    email = "arlantengga@gmail.com"
+    password = "sad4556"
+
+    if validasiPengguna.validasi_email(email):
+        print(f"email kamu benar")
+    else:
+        print(f"salah")
+
+    if validasiPengguna.validasi_password(password):
+        print(f"password benar")
+    else:
+        print(f"password salah")
+
 
 
     
