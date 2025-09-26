@@ -1,4 +1,10 @@
 from typing import Final,Type
+from typing import Union
+
+
+def penjumlhan(angka_pertama:Union[int,float],angka_kedua:Union[int,float]) -> Union[int,float]:
+    return angka_pertama + angka_kedua
+
 
 class particel:
     # class atribute
