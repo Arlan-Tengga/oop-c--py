@@ -4,6 +4,10 @@ from tugas_gpt import *
 from contro4_ import *
 from control5 import *
 from control6 import *
+from contol7 import *
+from contol8 import *
+from control9 import *
+from control10 import *
 
 # membuat branch
 # git branch <nama_brach>
@@ -20,6 +24,48 @@ from control6 import *
 # test
 # test_1
 if __name__ == "__main__":
+    rumah_arfy = RumahPintar("arfy slowy")
+
+    rumah_arfy.pasang_alarm(AlarmDasar())
+    rumah_arfy.pasang_alarm(AlarmPinter())
+    rumah_arfy.pasang_alarm(AlarmPihakBerwajib())
+
+    # toko_elektronik = Toko("wargaslowy tech",["laptop","mouse","keyboard"])
+    # toko_buku = Toko("wargaSlowy baca",["buku komputer","tutorial gajah 3000 jam","cara jadi rek"])
+
+    # toko_baru = toko_elektronik + toko_buku
+
+    # print(toko_baru)
+
+# __lt__ <
+# __mul__ = perkalian *
+# __sub__ = subtract = penguranga
+# 
+
+    # tunai = PembayaranTunai()
+    # qr_code = PembayaranEWallet()
+    # kartu = PembayaranKartu()
+    
+    # proses_bayar(tunai,75_000)
+    # proses_bayar(qr_code,550_000)
+    # proses_bayar(kartu,1_200_000)
+
+    # hero_rusdi = PenyihirPetarung()
+
+    # hero_rusdi.lempar_mantra()
+    # hero_rusdi.serang()
+    # hero_rusdi.gunakan_kekuatan_multi()
+
+    # mobil = Mobil("Toyota",180,4)
+    # motor = Motor("honda",80,"kyt")
+    # print(PenyihirPetarung.__mro__)
+
+    # mobil.mulai()
+    # mobil.klakson()
+    # mobil.berhenti()
+
+
+    # motor.wheelie()
     # Perpustakaan_uny = Perpustakaan("mary L boas","mary L boas",2022)
 
     # Perpustakaan_uny.info_perpustakaa()
@@ -34,18 +80,18 @@ if __name__ == "__main__":
     # rata_rata_gaji = Karyawan.hitung_rata_rata_gaji()
     # print(f"rata rata gaji dari karyawan {Karyawan.perusahaan} adalah : {rata_rata_gaji:0f} / bulan")
     
-    email = "arlantengga@gmail.com"
-    password = "sad4556"
+    # email = "arlantengga@gmail.com"
+    # password = "sad4556"
 
-    if validasiPengguna.validasi_email(email):
-        print(f"email kamu benar")
-    else:
-        print(f"salah")
+    # if validasiPengguna.validasi_email(email):
+    #     print(f"email kamu benar")
+    # else:
+    #     print(f"salah")
 
-    if validasiPengguna.validasi_password(password):
-        print(f"password benar")
-    else:
-        print(f"password salah")
+    # if validasiPengguna.validasi_password(password):
+    #     print(f"password benar")
+    # else:
+    #     print(f"password salah")
 
 
 
