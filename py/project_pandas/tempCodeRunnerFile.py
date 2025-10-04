@@ -1,0 +1,6 @@
+
+data_csv_saya = """nama,usia,kota,gaji
+ihsan,30,sleman,30000000
+madun,31,klaten,30000000
+akbar,40,klaten,45000000
+irsyad,29,kediri,3000000"""
